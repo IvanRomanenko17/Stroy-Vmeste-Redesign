@@ -201,7 +201,7 @@ header {
 }
 
 .principles__cards_card:last-child {
-    width: 387px;
+    width: 495px;
 }
 
 .principles__cards_icon {
@@ -1003,6 +1003,10 @@ footer {
         height: 70px;
     }
 
+    .header__logo {
+        margin-left: 20px;
+    }
+
     .container {
         max-width: 320px;
         width: 100%;
@@ -1034,28 +1038,43 @@ footer {
     .principles__subtitle_text {
         text-align: center;
         width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .principles__cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principles__cards_row2 {
+        margin-bottom: 30px;
     }
 
     .principles__cards_card {
         box-sizing: border-box;
-        width: 250px;
-        height: 100px;
+        width: 275px;
+        height: auto;
         margin-bottom: 15px;
+        align-items: center;
     }
 
     .principles__cards_card:last-child {
-        width: 250px;
+        width: 275px;
         height: 75px;
     }
 
     .principles__cards_card_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin-left: 7px;
+        height: 66px;
     }
 
     .principles__card_title {
         width: 200px;
         font-size: 12px;
-        line-height: 19px;
+        line-height: 14px;
         margin-bottom: 10px;
     }
 
@@ -1063,12 +1082,14 @@ footer {
         font-size: 10px;
         line-height: 25px;
         width: 180px;
-        line-height: 19px;
+        height: auto;
+        line-height: 12px;
     }
 
     .principles__cards_icon {
         width: 40px;
         height: 40px;
+        margin-right: 20px;
     }
 
     .principles__card_icon {
@@ -1110,9 +1131,11 @@ footer {
 
     .feedback__title_description {
         max-width: 320px;
-        width: 100%;
+        width: 270px;
         margin-left: 0px;
         margin-right: 0px;
+        font-size: 9px;
+        line-height: 11px;
     }
 
     .feedback__subtitle_description, .course__subtitle {
@@ -1158,6 +1181,13 @@ footer {
 
     .feedback__text_button {
         margin-bottom: 30px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .feedback__contacts {
+        font-size: 9px;
+        line-height: 11px;
     }
 
     .footer__container {
