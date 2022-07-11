@@ -177,12 +177,14 @@ header {
     display: flex;
     justify-content: center;
     margin-bottom: 65px;
+    flex-wrap: wrap;
 }
 
 .principles__cards_row2 {
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .principles__cards_card {
@@ -641,12 +643,12 @@ footer {
     }
 
     .header__logo {
-        margin-left: 5px;
+        margin-left: 20px;
     }
 
     .header__menu {
         width: 60px;
-        margin-right: 10px;
+        margin-right: 20px;
     }
 
     .header__phone-number {
@@ -690,6 +692,24 @@ footer {
         line-height: 45px;
     }
 
+    .principles__subtitle_text {
+        margin-bottom: 50px;
+    }
+
+    .principles__cards_row1, .principles__cards_row2 {
+        margin-bottom: 0;
+    }
+
+    .principles__cards_card {
+        margin-bottom: 40px;
+    }
+
+    .principles__cards_card:last-child {
+        margin-left: 0;
+        width: 495px;
+    }
+
+
     .priority__subtitle {
         margin-bottom: 40px;
     }
@@ -698,7 +718,6 @@ footer {
         flex-direction: column;
         align-items: center;
         width: auto;
-        margin-left: 20px;
         margin-bottom: 20px;
     }
 
@@ -706,26 +725,17 @@ footer {
         margin-bottom: 20px;
     }
 
-    .course__container {
-        height: auto;
-        padding-bottom: 0;
-
-    }
-
-    .course__subtitle {
-        text-align: center;
-        margin-bottom: 25px;
-    }
-
-    .course__cards_row1, .course__cards_row2 {
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 10px;
-        width: auto;
+    .priority__card:first-child {
+        margin-right: 0;
+        margin-bottom: 30px;
     }
 
     .priority__cards {
         margin-bottom: 0px;
+    }
+
+    .feedback__title {
+        margin-top: 40px;
     }
 
     .feedback__contacts {
@@ -736,8 +746,8 @@ footer {
         width: 335px;
     }
 
-    .course__card, .course__card2 {
-        margin-bottom: 20px;
+    .feedback__title_description {
+        width: 650px;
     }
 
     .footer__container {
@@ -813,6 +823,19 @@ footer {
         line-height: 25px;
     }
 
+    .principles__title_text {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .priority__card {
+        width: 50%;
+        height: 50%;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .priority__title {
         font-size: 25px;
         line-height: 30px;
@@ -824,16 +847,9 @@ footer {
     }
 
     .priority__cards_row {
-        align-items: start;
+        align-items: center;
     }
-
-    .priority__card {
-        width: auto;
-        height: auto;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
+    
 
     .priority__card_title {
         font-size: 12px;
