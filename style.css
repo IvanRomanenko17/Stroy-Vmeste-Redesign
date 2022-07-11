@@ -1031,6 +1031,15 @@ footer {
         margin-left: 0;
     }
 
+    .principles__cards_card {
+        box-sizing: border-box;
+        width: 360px;
+    }
+
+    .principles__card_title {
+        font-size: 12px;
+    }
+
     .priority__title {
         margin-bottom: 5px;
     }
