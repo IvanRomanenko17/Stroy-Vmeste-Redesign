@@ -790,7 +790,7 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-between;
 }
 
 .footer__info {
