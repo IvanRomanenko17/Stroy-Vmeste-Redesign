@@ -1132,42 +1132,8 @@ footer {
         width: 100%;
     }
 
-    .feedback__form_left, .feedback__form_right, .feedback__form_description_text, .feedback__input, .feedback__form_description, .feedback__button_container {
-        max-width: 280px;
-        width: 100%;
-        height: auto;
-    }
-
-    .feedback__form_left {
-        margin-bottom: 0;
-    }
-
-    .feedback__input {
-        height: 50px;
-        margin-bottom: 20px;
-    }
-
-    .placeholder-box input {
-        height: 50px;
-    }
-
-     .input,  .placeholder-box {
-        box-sizing: border-box;
-        padding-left: 0;
-        height: 50px;
-        width: 280px;
-    }
-
-    .feedback__input-center {
-        box-sizing: border-box;
-        padding-left: 0;
-        padding-bottom: 45px;
-        height: 100px;
-        width: 280px;
-    }
-
-    .feedback__form_description_text {
-        max-width: 250px;
+    .feedback__title {
+        margin-top: 35px;
     }
 
     .feedback__subtitle {
