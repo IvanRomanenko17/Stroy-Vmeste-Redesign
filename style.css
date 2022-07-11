@@ -75,8 +75,6 @@ header {
     margin-right: 48px;
 }
 
-
-
 /* banner */
 
 .banner {
@@ -168,9 +166,6 @@ header {
     line-height: 24px;
     color: #979797;
     margin-bottom: 100px;
-}
-.principles__cards {
-   
 }
 
 .principles__cards_row1 {
@@ -791,7 +786,6 @@ footer {
         width: 200px;
     }
 
-
     .header__phone-number {
         font-size: 12px;
         line-height: 15px;
@@ -861,61 +855,6 @@ footer {
         font-size: 10px;
     }
 
-    .course {
-        background-color: #fff;
-    }
-
-    .course__title {
-        color: #2C2C2C;
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .course__subtitle {
-        color: #2C2C2C;
-        text-align: center;
-        margin-bottom: 25px;
-    }
-
-    .course__card, .course__card2 {
-        height: 200px;
-    }
-
-    .course__cards_row2 {
-        width: auto;
-    }
-
-    .course__cards_icon {
-        width: 60px;
-        height: 60px;
-    }
-
-    .course__card_content {
-        justify-content: center;
-        margin-bottom: 22px;
-    }
-
-    .course__card_text {
-        width: 60%;
-        margin-left: 0px;
-    }
-
-    .course__card_title {
-        font-size: 40px;
-        line-height: 35px;
-    }
-
-    .course__card_subtitle {
-        font-size: 36px;
-        line-height: 35px;
-    }
-
-    .course__button, .course__button2 {
-        width: 60%;
-        height: 60px;
-        font-size: 20px;
-    }
-
     .feedback__text {
         width: auto;
     }
@@ -938,21 +877,6 @@ footer {
     .feedback__subtitle_description {
         max-width: 400px;
         padding-left: 10px;
-    }
-
-    .feedback__form_up {
-        max-width: 400px;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .feedback__form_left {
-        margin-bottom: 20px;
-    }
-
-    .feedback__input-center {
-        width: 346px;
     }
 
     .feedback__form_description {
@@ -1055,7 +979,7 @@ footer {
         width: 275px;
         height: auto;
         margin-bottom: 15px;
-        align-items: center;
+        align-items: center; 
     }
 
     .principles__cards_card:last-child {
@@ -1138,7 +1062,7 @@ footer {
         line-height: 11px;
     }
 
-    .feedback__subtitle_description, .course__subtitle {
+    .feedback__subtitle_description {
         max-width: 280px;
         width: 100%;
     }
@@ -1175,7 +1099,7 @@ footer {
     }
 
     .feedback__form_button {
-        height: 50px;
+        height: 51px;
         font-size: 16px;
     }
 
@@ -1220,4 +1144,6 @@ footer {
     }
 
 }
+
+
 
