@@ -784,7 +784,8 @@ footer {
 }
 
 .footer__container {
-    max-width:1320px;
+    max-width: 1320px;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1214,10 +1215,16 @@ footer {
         margin-left: 0;
     }
 
+    .principles__title_text {
+        margin-bottom: 10px;
+    }
+
     .principles__subtitle_text {
         text-align: center;
         width: 280px;
         margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 16px;
     }
 
     .principles__cards {
