@@ -188,6 +188,13 @@ header {
     max-width: 409px;
     width: 100%;
     height: 109px;
+    width: 385px;
+    height: 150px;
+    left: 516px;
+    top: 1896px;
+    background: #FFFFFF;
+    box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
 }
 .priority__card_icon {
     width: 13px;
